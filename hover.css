@@ -1,0 +1,48 @@
+* {
+margin: 0;
+padding: 0;
+max-width: 100vw;
+max-height: 4096px;
+}
+.nieuwbox:hover {
+color: #000000;
+background-color: #ffffff;
+cursor: pointer;
+}
+.damesbox:hover {
+color: #000000;
+background-color: #ffffff;
+cursor: pointer;
+}
+.herenbox:hover {
+color: #000000;
+background-color: #ffffff;
+cursor: pointer;
+}
+.salebox:hover {
+color: #000000;
+background-color: #ffffff;
+cursor: pointer;
+}
+.button1:hover {
+cursor: pointer;
+color: #ffffff;
+background-color: #000000;
+border-radius: 20%;
+transition: 2s;
+}
+.button2:hover {
+cursor: pointer;
+color: #ffffff;
+background-color: #000000;
+border-radius: 20%;
+transition: 2s;
+}
+.button-1:hover {
+    color: #ffffff;
+    background-color: #000000;
+    cursor: pointer;
+}
+.area-1:hover {
+cursor: pointer;
+}
