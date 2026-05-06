@@ -1,0 +1,114 @@
+@keyframes changeColor2 {
+0%{background-color: pink;}
+10%{background-color: purple;}
+20%{background-color: blue;}
+30%{background-color: green;}
+40%{background-color: red;}
+50%{background-color: yellow;}
+60%{background-color: red;}
+70%{background-color: green;}
+80%{background-color: blue;}
+90%{background-color: purple;}
+100%{background-color: pink;}
+}
+@keyframes changeposition1 {
+0% {margin-top: 0%;}
+10% {margin-top: -10%;}
+20% {margin-top: -20%;}
+30% {margin-top: -30%;}
+40% {margin-top: -40%;  opacity: 0;}
+50% {margin-top: 50%;  opacity: 0;}
+60% {margin-top: 40%;  opacity: 0;}
+70% {margin-top: 30%; opacity: 0;}
+80% {margin-top: 20%;}
+90% {margin-top: 10%;}
+100% {margin-top: 0%;}
+}
+@keyframes changeposition2 {
+0% {margin-top: 0%;}
+10% {margin-top: 10%;}
+20% {margin-top: 20%;}
+30% {margin-top: 30%;}
+40% {margin-top: 40%;  opacity: 0;}
+50% {margin-top: -50%;  opacity: 0;}
+60% {margin-top: -40%;  opacity: 0;}
+70% {margin-top: -30%; opacity: 0;}
+80% {margin-top: -20%;}
+90% {margin-top: -10%;}
+100% {margin-top: 0%;}
+}
+@keyframes changeposition3 {
+0% {margin-top: 50%; opacity: 0;}
+10% {margin-top: 40%;opacity: 0;}
+20% {margin-top: 30%;opacity: 0;}
+30% {margin-top: 20%; opacity: 25%;}
+40% {margin-top: 10%; opacity: 75%;}
+50% {margin-top: 0%; opacity: 100%;}
+60% {margin-top: -10%; opacity: 50%;}
+70% {margin-top: -20%; opacity: 0;}
+80% {margin-top: -30%;}
+90% {margin-top: -40%;}
+100% {margin-top: -50%;}
+}
+@keyframes changeposition4 {
+    0% {margin-top: -50%;opacity: 0;}
+10% {margin-top: -40%;opacity: 0;}
+20% {margin-top: -30%;opacity: 0;}
+30% {margin-top: -20%;opacity: 25%;}
+40% {margin-top: -10%; opacity: 75%; }
+50% {margin-top: 0%;opacity: 100%;}
+60% {margin-top: 10%;opacity: 50%;}
+70% {margin-top: 20%;opacity: 0;}
+80% {margin-top: 30%;}
+90% {margin-top: 40%;}
+100% {margin-top: 50%;}
+}
+@keyframes forhero {
+0% {border-radius: 0%;}
+10% {border-radius: 10%;}
+20% {border-radius: 20%;}
+30% {border-radius: 30%;}
+40% {border-radius: 40%;}
+50% {border-radius: 50%;}
+60% {border-radius: 40%;}
+70% {border-radius: 30%;}
+80% {border-radius: 20%;}
+90% {border-radius: 10%;}
+100% {border-radius: 0%;}
+}
+@keyframes section1vervorm {
+    0%{ border-radius: 50%;}
+    10%{ border-radius: 40%;}
+    20%{ border-radius: 30%;}
+    30%{ border-radius: 20%;}
+    40%{ border-radius: 10%;}
+    50%{ border-radius: 0%;}
+    60%{ border-radius: 10%;}
+    70%{ border-radius: 20%;}
+    80%{ border-radius: 30%;}
+    90%{ border-radius: 40%;}
+    100%{ border-radius: 50%;}
+}
+.gifs {
+    animation: changeColor2 20s linear infinite;
+}
+.backgroundcalltoaction1  {
+    animation: changeposition1 20s linear infinite;
+}
+.backgroundcalltoaction2  {
+    animation: changeposition2 20s linear infinite;
+}
+.backgroundcalltoaction3  {
+    animation: changeposition3 20s linear infinite;
+}
+.backgroundcalltoaction4  {
+    animation: changeposition4 20s linear infinite;
+}
+.calltoaction {
+    animation: forhero 10s linear infinite;
+    overflow: hidden;
+}
+.border-1-section-1 {
+    animation: section1vervorm 10s linear infinite;
+
+}
